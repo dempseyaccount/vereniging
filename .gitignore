@@ -13,3 +13,19 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+lib/templates/erb/scaffold/_form.html.erb
+
+config/locales/simple_form.en.yml
+
+db/.DS_Store
+
+config/initializers/simple_form_bootstrap.rb
+
+test/.DS_Store
+
+config/.DS_Store
+
+config/initializers/simple_form.rb
+
+.DS_Store
