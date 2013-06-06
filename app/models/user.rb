@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   
   
   # ruby -Itest test/unit/user_test.rb
+  # ruby -Itest test/unit/user_test.rb
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
