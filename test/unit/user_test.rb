@@ -25,15 +25,5 @@ class UserTest < ActiveSupport::TestCase
     assert !user.errors[:profile_name].empty?
     
   end
-  
-  test "a user should have a unique profile name" do
-    user = User.new
-    user.profile_name = user(:dempsey).profile_name
-
-    assert !user.save
-    puts user.errors.inspect
-    assert !user.errors[:profile_name].empty?
-    
-  end
 
 end
