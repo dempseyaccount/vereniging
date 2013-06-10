@@ -1,8 +1,4 @@
 module ApplicationHelper
-  
- #begin
-
-<<<<<<< HEAD
   def flash_class(type)
     case type
     when :alert
