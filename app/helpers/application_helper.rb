@@ -22,6 +22,8 @@ module ApplicationHelper
 			"alert-error"
 		when :notice
 			"alert-success"
+  when :info
+      "alert-info"
 		else
 			""
 		end
