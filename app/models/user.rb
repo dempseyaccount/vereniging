@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
-  
+  #                           /^[a-zA-Z0-9_-]+$/,
+  #                          old format "with: /\A[a-zA-Z0-9_-]+\Z/,"
   
   # ruby -Itest test/unit/user_test.rb
   # ruby -Itest test/unit/user_test.rb
