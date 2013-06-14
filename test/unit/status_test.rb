@@ -21,5 +21,4 @@ class StatusTest < ActiveSupport::TestCase
 		assert !status.errors[:user_id].empty?
 	end
 
-
 end

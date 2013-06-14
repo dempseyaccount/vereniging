@@ -3,3 +3,9 @@ dempsey:
   last_name: "account"
   email: "dempseyaccount@hotmail.com"
   profile_name: "dempseyaccount"
+
+maria:
+  first_name: "maria"
+  last_name: "perez"
+  email: "dempseytromp@hotmail.com"
+  profile_name: "dempseytromp"

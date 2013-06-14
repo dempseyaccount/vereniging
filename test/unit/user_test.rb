@@ -35,7 +35,7 @@ class UserTest < ActiveSupport::TestCase
 
     assert !user.save
     assert !user.errors[:profile_name].empty?
-    assert !user.errors[:profile_name].include?("Must be formatted correctly.") 
+    assert user.errors[:profile_name].include?("Must be formatted correctly.") 
   end
 
   test "a user can have a correctly formatted profile name" do

@@ -7,3 +7,7 @@ one:
 two:
   context: MyText
   user: dempsey
+
+three:
+  context: "Hi maria"
+  user: maria

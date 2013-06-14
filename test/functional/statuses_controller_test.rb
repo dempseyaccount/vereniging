@@ -42,6 +42,7 @@ class StatusesControllerTest < ActionController::TestCase
 
 
 
+
   
  # test "should be logged in to edit status" do
  #   get :edit, id: @status
